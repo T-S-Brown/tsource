@@ -19,7 +19,7 @@ Created on Wed Jan 17 09:18:29 2018
 import pandas as pd
 
 # load the example dataset
-data = pd.read_csv("filepath/survey.csv")
+data = pd.read_csv("C:/Users/Thomas/Dropbox/Data Science/survey.csv")
 
 
 #------------------------------#
@@ -91,5 +91,30 @@ new_data['age2'] = np.array(data['Age'])*2
 #------------------------------#
 # Summarise
 #------------------------------#
+
+new_data = data['Age'].median()
+new_data = data.Age.median()
+
+
+new_data = data['Gender'].value_counts()
+new_data = data.Gender.value_counts()
+
+# For multiple columns
+new_data = data[data.columns].mode()
+new_data = data[['Country', 'state']].mode()
+
+
+
+#------------------------------#
+# Groupby / Summarise
+#------------------------------#
+
+new_data = data.groupby('Gender')['Age'].count()
+
+new_data = data.groupby('Country')['Age'].mean()
+
+
+
+
 
 
