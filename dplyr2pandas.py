@@ -19,7 +19,7 @@ Created on Wed Jan 17 09:18:29 2018
 import pandas as pd
 
 # load the example dataset
-data = pd.read_csv("C:/Users/E610971/OneDrive - UCB/Desktop/survey.csv")
+data = pd.read_csv("filepath/survey.csv")
 
 
 #------------------------------#
