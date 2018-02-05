@@ -1,17 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 17 09:18:29 2018
-
-@author: Thomas Brown
-"""
-
-#-----------------------------------------------------#
+#-------------------------------------------------------------#
 # Dplyr to Pandas
 # Migrating fundamental data manipulation skills
 # from R to Python
 #
 # Thomas Brown, 2018
-#-----------------------------------------------------#
+#
+# Example dataset is sourced from the Mental Health
+# in Tech Survey. Available on Kaggle.
+# https://www.kaggle.com/osmi/mental-health-in-tech-survey
+#-------------------------------------------------------------#
 
 # Load a module
 
