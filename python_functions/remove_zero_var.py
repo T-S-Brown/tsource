@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 def remove_zero_var(data):
     out = pd.DataFrame()
